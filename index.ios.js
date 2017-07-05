@@ -23,7 +23,6 @@ const bitcoin = require('bitcoinjs-lib');
 
 const keypair = bitcoin.ECPair.makeRandom();
 
-console.log(keypair.getAddress())
 
 export default class CoinbankWalletV1 extends Component {
   render() {

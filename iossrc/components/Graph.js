@@ -59,7 +59,6 @@ export default function Graph({ data }) {
     }
     let graphData = [[...data.slice()]];
     // data = [
-    console.log('data', data);
   return (
     <View>
       <StockLine data={graphData} options={options} xKey='x' yKey='y' />

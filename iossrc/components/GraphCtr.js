@@ -37,7 +37,6 @@ export default class GraphCtr extends React.Component {
     return xs.map((x, i) => ({ x: i, y: data[x] }))
   }
   render() {
-    console.log('this.state.bpi', this.state.bpi);
     return (
       <View>
         <Graph data={this.state.bpi} xAxis={this.state.dates} />
